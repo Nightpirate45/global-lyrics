@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Lyrics</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="lyrics.js" />
+</head>
+<body>
+    <header class="header">
+        <h1>Global Lyrics</h1>
+    </header>
+    <main class="main">
+        <section class="submit-lyrics">
+            <h2>Submit Your Lyrics</h2>
+            <form id="lyricsForm">
+                <input type="text" id="authorName" placeholder="Your Name" required>
+                <input type="text" id="language" placeholder="Language" required>
+                <textarea id="lyricsText" placeholder="Write your lyrics here..." required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="lyrics-display">
+            <h2>Lyrics from Around the World</h2>
+            <div id="lyricsContainer"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Global Lyrics. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
